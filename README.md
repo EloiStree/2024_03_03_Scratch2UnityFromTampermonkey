@@ -1,3 +1,16 @@
+# Note: Old version
+
+This is an old version.
+I have a better solution here:  
+https://github.com/EloiStree/2024_08_29_ScratchToWarcraft/blob/main/PythonBridge/ScratchVarToLocalWebsocket.js   
+
+Using a code that more generic:
+``` js
+ // Find elements with classes 'monitor_label_ci1ok' and 'monitor_value_3Yexa' within current element
+ var labelElement = element.querySelector('[class^="monitor_label_"]');
+ var valueElement = element.querySelector('[class^="monitor_value_"]');
+```
+
 # Scratch 2 Unity From Tampermonkey  
 
 Attempt to export the variable of Scratch to Unity from the use of Tampermonkey.  
